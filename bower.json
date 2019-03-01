@@ -1,0 +1,16 @@
+{
+  "name": "AviatorsNG",
+  "description": "Aviator Revamp",
+  "main": "server.js",
+  "authors": [
+    "Rashad Rose"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Aviators"
+  ],
+  "homepage": "",
+  "dependencies": {
+    "ngtweet": "^0.6.2"
+  }
+}

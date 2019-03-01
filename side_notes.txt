@@ -1,0 +1,40 @@
+//set up server
+/*var http = require('http');
+var fs = require('fs');
+
+function onRequest(req, res){
+    res.writeHead(200, {'Content-Type' : 'text/plain'});
+    res.write('Hello wolrd');
+    res.end();
+    
+}
+http.createServer(onRequest).listen(8080);
+console.log('Server Running On Port:8080');*/
+
+
+
+//fetch html
+/*var http = require('http');
+var fs = require('fs');
+
+function onRequest(req, res){
+    res.writeHead(200, {'Content-Type' : 'text/html'});
+    fs.readFile('public/index.html', null, function(error, data){
+        if(error){
+            res.writeHead(404);
+            res.write('File Not Found');
+        }
+        else{
+            res.write(data);
+        }
+      res.end();
+    });    
+}
+http.createServer(onRequest).listen(8080);
+console.log('Server Running On Port:8080');*/
+
+//Using Routes and module.exports
+/*var http = require('http');
+var app = require('./wwwapp');
+http.createServer(app.handleRequest).listen(8080);
+console.log('Server Running On Port:8080');*/

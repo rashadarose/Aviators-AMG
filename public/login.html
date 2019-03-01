@@ -1,0 +1,55 @@
+<!doctype html>
+<html ng-app="myapp" lang="en" ng-strict-di>
+
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- override intranet compatability mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title ng-bind="sIndexTitle">Aviators</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!--<link rel="stylesheet" href="stylesheets/bootstrap-4.0.0-alpha.6.min.css">
+    <link rel="stylesheet" href="stylesheets/fonts.css">
+    <link rel="stylesheet" href="stylesheets/slick.css">-->
+</head>
+
+<!--<body supercloak>-->
+ <body>
+    <!--<div ng-include="headerTemplateUrl"></div>
+    <div class="page" role="main">   
+        <div ng-view data-autoscroll></div>
+    </div>
+    <div ng-include="'views/footer/footer.html'"></div>-->
+
+    <!-- loading scripts at the end of the body, order matters -->
+     <div>yooo</div>
+    <script src="javascripts/jquery-3.2.0.js"></script>
+
+    <script src="javascripts/angular-1.6.0/angular.min.js"></script>
+    <script src="javascripts/angular-1.6.0/angular-route.min.js"></script>
+    <script src="javascripts/angular-1.6.0/angular-resource.min.js"></script>
+    <script src="javascripts/angular-1.6.0/angular-sanitize.min.js"></script>
+    <script src="javascripts/angular-1.6.0/angular-animate.min.js"></script>
+    <script src="javascripts/angular-1.6.0/angular-cookies.min.js"></script>
+
+    
+    <script src="javascripts/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="javascripts/bootstrap-4.0.0-alpha.6.min.js"></script>
+
+    <!-- unofficial ng extensions and plugins -->
+    <script src="javascripts/angular-dropdowns.js"></script>
+    <script src="javascripts/angular-css-injector.js"></script>
+    <script src="javascripts/polyfill-all.js"></script>    
+    <script src="javascripts/slick.min.js"></script>
+
+   
+    
+    <!-- application logic; not libs -->
+    <!-- if scripts get too many we can implement lazy load with require or ocLazyLoader -->
+    <!-- ref: https://stackoverflow.com/questions/23656231/angularjs-dynamic-loading-of-external-js-based-on-routes -->
+   <!-- <script src="app.js"></script>
+    <script src="views/militaryInstallations/militaryInstallations.js"></script>
+  </script>-->
+     </body>  
+    </html>
